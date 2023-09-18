@@ -49,8 +49,8 @@ public class JPAConfig {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/springmvc");
-		dataSource.setUsername("Vankien");
-		dataSource.setPassword("Vankien99VP");
+		dataSource.setUsername("kienjw");
+		dataSource.setPassword("1234");
 		return dataSource;
 	}
 	
